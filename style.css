@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bg-mg {
+  height: 100vh;
+  background-image: url("./assets/IMG\ HEADER.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.conatiner {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.header {
+  padding: 10px 0;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo {
+  width: 200px;
+}
+
+.header-logo img {
+  width: 100%;
+}
+.header-menu {
+  display: flex;
+  gap: 31px;
+  list-style: none;
+}
+.header-menu-item {
+}
+.header-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 24px;
+}
+.btn-wrapper {
+  display: flex;
+  width: 200px;
+  gap: 25px;
+}
+.header-btn {
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: #ffffff;
+  color: #000;
+}
+.btn-otline {
+  background-color: transparent;
+  padding: 10px 30px;
+  border: solid 2px;
+  color: #fff;
+  cursor: pointer;
+}
+.r {
+  display: none;
+}
+
+.header-logo .logo-black {
+  display: none;
+}
+
+.g {
+  display: none;
+}
+
+.sec-btn {
+  background-color: #3a99ce;
+  width: 300px;
+  height: 71px;
+  top: 425px;
+  left: -412px;
+  gap: 0px;
+  border-radius: 10px;
+  opacity: 0px;
+  text-align: center;
+  margin-top: 110px;
+  margin-left: 150px;
+}
+
+.l {
+  color: white;
+  list-style: none;
+  font-size: 50px;
+  padding-top: 50px;
+  padding-left: 160px;
+}
+
+.h2-h2 {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: white;
+}
+.plus {
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .header {
+    background-color: #d9d9d9;
+  }
+  .header-menu {
+    display: none;
+  }
+
+  .btn-wrapper {
+    display: none;
+  }
+
+  .header-logo .logo-white {
+    display: none;
+  }
+
+  .header-logo .logo-black {
+    display: block;
+    margin-left: 20px;
+  }
+
+  .r {
+    display: block;
+    padding-right: 10px;
+  }
+
+  .g {
+    display: block;
+  }
+
+  .sec-btn {
+    background-color: #3a99ce;
+    width: 200px;
+    height: 51px;
+    top: 425px;
+    left: -412px;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 30px;
+  }
+
+  .l {
+    color: white;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 72px;
+  }
+
+  .sec-wrap {
+  }
+
+  .h2-h2 {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+  }
+  .plus {
+    text-align: center;
+  }
+}
